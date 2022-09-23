@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "lite-server --baseDir=www",
-    "deploy": "surge --project ./www/ --domain cdn.surge.sh",
-    "destroy": "surge teardown cdn.surge.sh"
+    "deploy": "surge --project ./www/ --domain libs.surge.sh",
+    "destroy": "surge teardown libs.surge.sh"
   },
   "keywords": [],
   "author": "",
