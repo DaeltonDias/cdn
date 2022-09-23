@@ -1,0 +1,17 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "lite-server --baseDir=www",
+    "deploy": "surge --project ./www/ --domain cdn.surge.sh",
+    "destroy": "surge teardown cdn.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "surge": "^0.23.1"
+  }
+}
+
